@@ -1,0 +1,182 @@
+.ContactUsWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    padding-top: 15vh;
+    margin-bottom: 10vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ContactUs{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.ContactUsHeader{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 255, 0.7);
+}
+
+.ContactUsBody{
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    /* background-color: red; */
+}
+
+.ContactUsBodyLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactUsBodyLeft form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0% 5%;
+}
+
+.ContactUsBodyLeft form label{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    align-items: center;
+    padding-left: 10%;
+    
+}
+
+.ContactUsBodyLeft form label input{
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    padding-left: 2%;
+}
+
+.ContactUsBodyLeft form label input:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.ContactUsBodyRight{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 255, 0.1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactUsBodyRight img{
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.CountryCityStateWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    /* background-color: red; */
+    /* padding-right: 18%; */
+    gap: 5%;
+}
+
+.CountryCityStateWrap input{
+    width: 22%;
+    height: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    padding-left: 2%;
+}
+
+.CountryCityStateWrap input:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.TextAreaWrap{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left:10% ;
+}
+
+.TextAreaWrap textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    padding: 1%;
+    border:  1px solid rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.TextAreaWrap textarea:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.SubmitButtonWrap{
+    display: flex;
+    width: 100%;
+    height: 7%;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 20%; */
+    /* background-color: red; */
+}
+
+.SubmitButtonWrap button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1.1vw;
+    width: 20%;
+    height: 70%;
+}
+
+.SubmitButtonWrap button:hover{
+    transform: scale(1.1);
+}
+
+.SubmitButtonWrap button:active{
+    transform: scale(0.9);
+}
