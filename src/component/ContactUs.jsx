@@ -3,6 +3,7 @@ import "../CSS/ContactUs.css"
 import Logo from "../Images/logo.jpeg"
 import Swal from 'sweetalert2'
 import { FaBackward } from 'react-icons/fa6'
+import axios from 'axios'
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
@@ -58,7 +59,7 @@ const ContactUs = () => {
                     showCancelButton:false,
                 })
             }catch(error){
-                console.error
+                console.error(error)
                 loadingAlert.close();
                 Swal.fire({
                     icon:"error",

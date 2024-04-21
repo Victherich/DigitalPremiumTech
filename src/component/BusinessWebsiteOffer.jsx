@@ -85,7 +85,7 @@ const BusinessWebsiteOffer = () => {
                     showCancelButton:false,
                 })
             }catch(error){
-                console.error
+                console.error(error)
                 loadingAlert.close();
                 Swal.fire({
                     icon:"error",
