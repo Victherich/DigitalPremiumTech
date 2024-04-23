@@ -200,23 +200,26 @@
 /* For screens smaller than 768px (typical smartphones) */
 @media only screen and (max-width: 768px) {
     .SpecialOffer {
-      width: 90%; /* Reduce width for better fit on small screens */
-      height: auto; /* Let content dictate height */
-      padding: 5%; /* Increase padding for better spacing */
-      font-size: 3vw; /* Adjust font size for readability */
-    }
-  
-    .ViewSampleAndButtonWrap {
-      flex-direction: column; /* Stack elements vertically */
-      height: auto; /* Let content dictate height */
-    }
-  
-    .ViewSampleAndButtonWrap p {
-      margin-bottom: 5%; /* Add space between elements */
-    }
+        width: 70%; /* Adjust width for better fit */
+        height: auto; /* Let content dictate height */
+        padding: 3%; /* Adjust padding for better spacing */
+        font-size: 3.3vw; /* Adjust font size for readability */
+        gap: 2vh;
+      }
   
     .SpecialOffer button {
-      width: 80%; /* Adjust button width for better fit */
+        width: 50%; /* Adjust button width for better fit */
+        height: 5vh;
+        font-size: 2.8vw;
+      }
+
+      .SpecialOfferIcon{
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .SpecialOffersHeader{
+        font-size: 2.8vw;
     }
   }
   
@@ -224,6 +227,25 @@
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .SpecialOffer {
       width: 70%; /* Adjust width for better fit */
+      height: auto; /* Let content dictate height */
+      padding: 3%; /* Adjust padding for better spacing */
+      font-size: 2.5vw; /* Adjust font size for readability */
+      gap: 2vh;
+    }
+  
+    .SpecialOffer button {
+      width: 50%; /* Adjust button width for better fit */
+      height: 5vh;
+      font-size: 2.2vw;
+    }
+
+    .SpecialOfferIcon{
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .SpecialOffersHeader{
+        font-size: 2.8vw;
     }
   }
   
@@ -231,6 +253,13 @@
   @media only screen and (min-width: 1024px) {
     .SpecialOffer {
       width: 40%; /* Revert width to original size */
+      height: 50vh; /* Set fixed height for consistency */
+      font-size: 1.5vw; /* Revert font size to original */
+    }
+  
+    .SpecialOffer button {
+      width: 50%;
+      font-size: 1.3vw; /* Revert button width to original */
     }
   }
   

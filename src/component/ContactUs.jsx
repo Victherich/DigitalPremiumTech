@@ -48,7 +48,7 @@ const ContactUs = () => {
         
               Swal.showLoading();
             try{
-                const response = axios.post("https//:www.gmail.com",formData)
+                const response = await axios.post("http://localhost:3000/api/send-email",formData)
                 console.log(response.data)
                 loadingAlert.close();
                 Swal.fire({
