@@ -52,7 +52,7 @@ const SpecialOffer = () => {
             <div className='SpecialOffersBody'>
             <div className='SpecialOffer'>
                 <FaHome className='SpecialOfferIcon'/>
-                <p>We shall Build a website for your business for as low as 10,000 naira 
+                <p>We shall <span style={{fontWeight:"bold",color:"blue",textDecoration:"underline"}}>BUILD A WEBSITE FOR YOUR BUSINESS</span> for as low as 10,000 naira 
                   (aside hosting and domain name); and you get to pay after Serivce.
                 </p>
                 <p>Offer Valid for First 50 people.</p>
@@ -60,8 +60,7 @@ const SpecialOffer = () => {
             </div>
             <div className='SpecialOffer'>
             <FaUser className='SpecialOfferIcon'/>
-                <p>Instead of sticking to the old outdated regular CV, we shall build for you a 
-                  professional Portfolio Website to showcase your 
+                <p>Instead of sticking to the old outdated regular CV, we shall <span style={{fontWeight:"bold",color:"blue",textDecoration:"underline"}}>BUILD A PROFESSIONAL PORTFOLIO WEBSITE</span> for you to showcase your 
                   Qualifications and experiences in an interractive manner with just 10,000 naira 
                   (aside hosting and domian name); and you get to pay after Serivce.
                 </p>
@@ -79,7 +78,7 @@ const SpecialOffer = () => {
             </div>
             <div className='SpecialOffer'>
             <FaInternetExplorer className='SpecialOfferIcon'/>
-                <p>Become a Front-End Web Developer with certification in 3 months with our
+                <p><span style={{fontWeight:"bold",color:"blue",textDecoration:"underline"}}>BECOME A FRONT-END WEB DEVELOPER</span> with certification in 3 months with our
                    Comprehensive Training program for just 50,000 naira and you can pay in 3 installments.
                   Offer valid for first 10 people.</p>
                
@@ -89,7 +88,7 @@ const SpecialOffer = () => {
             </div>
             <div className='SpecialOffer'>
             <FaUsers className='SpecialOfferIcon'/>
-                <p>Learn UIUX/Product design with certification in 2 months with our comprehensive
+                <p><span style={{fontWeight:"bold",color:"blue",textDecoration:"underline"}}>LEARN UIUX / PRODUCT DESIGN</span> with certification in 2 months with our comprehensive
                    Training program for just 30,000 naira and you can pay in 2 installments.
                   Offer valid for first 10 people.</p>
 

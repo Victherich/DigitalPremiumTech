@@ -59,9 +59,9 @@
 
 .ContactUsBodyLeft form label{
     width: 100%;
-    height: 5%;
+    height: auto;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: space-between;
     /* align-items: flex-start; */
     align-items: center;
@@ -69,9 +69,17 @@
     
 }
 
+.InputLabelChild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
 .ContactUsBodyLeft form label input{
     width: 70%;
-    height: 100%;
+    height: 6vh;
     border-radius: 5px;
     outline: none;
     border: 1px solid rgba(0, 0, 255, 0.5);
@@ -128,13 +136,13 @@
     /* background-color: blue; */
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     padding-left:10% ;
 }
 
 .TextAreaWrap textarea{
-    width: 100%;
+    width: 80%;
     height: 100%;
     resize: none;
     outline: none;
@@ -151,10 +159,13 @@
 
 .SubmitButtonWrap{
     display: flex;
+    flex-direction: column;
     width: 100%;
+    gap:50%;
     height: 7%;
     justify-content: center;
     align-items: center;
+    text-align: center;
     /* padding-right: 20%; */
     /* background-color: red; */
 }
@@ -178,5 +189,55 @@
 }
 
 .SubmitButtonWrap button:active{
+    transform: scale(0.9);
+}
+
+.FormSubmitUiWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.FormSubmitUi{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    padding: 5%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.FormSubmitUi button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1.1vw;
+    width: 30%;
+    height: 25%;
+}
+
+.FormSubmitUi button:hover{
+    transform: scale(1.1);
+}
+
+.FormSubmitUi button:active{
     transform: scale(0.9);
 }
