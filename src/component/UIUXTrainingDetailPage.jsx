@@ -445,7 +445,9 @@ const handleOpenSubmit = async() => {
                             <div className='FormSubmitUiWrap'>
                                 <div className='FormSubmitUi'>
                                 <p>You are about to submit your request and one of our representatives shall surely get back to you as soon as possible. Click on submit now and then expect our callback. Thanks.</p>
-                                <button type="submit">Submit Now</button>
+                                <button 
+                                
+                                type="submit">Submit Now</button>
                                 <p onClick={()=>setOpenSubmit(false)} style={{cursor:"pointer"}}>X</p>
                             </div>
                             </div>

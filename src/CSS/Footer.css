@@ -1,4 +1,4 @@
-.FooterWrap{
+/* .FooterWrap{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +9,9 @@
 }
 
 .Footer{
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -19,9 +20,11 @@
 
 .FooterUpper{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:2%;
     align-items: center;
     width: 100%;
+    font-size: 1.2vw;
 }
 
 
@@ -36,14 +39,19 @@
 
 .FooterLower h2{
     color: blue;
+
+}
+
+.FooterLower p{
+    font-size: 1.3vw;
 }
 
 .FooterEmail{
     display: flex;
     justify-content: space-between;
-    width: 22%;
+    width: 20%;
     align-items: center;
-    /* background-color: red; */
+    
 }
 
 .FooterEmail img{
@@ -55,7 +63,7 @@
     justify-content: space-between;
     width: 11%;
     align-items: center;
-    /* background-color: red; */
+    
 }
 
 .FooterPhone img{
@@ -66,9 +74,119 @@
     width: 20%;
     display: flex;
     justify-content: center;
+    gap:3%;
     align-items: center;
 }
 
 .FooterSocial img{
     width: 10%;
+}
+
+
+@media screen and (max-width:1280px) {
+        
+
+        .FooterUpper{
+            font-size: 1.5vw;
+            gap:10%
+        }
+
+        .FooterLower h2{
+            font-size: 2.2vw;
+        }
+
+        .FooterLower p{
+            font-size: 1.5vw;
+        }
+}
+
+@media screen and (max-width:884px) {
+    .FooterWrap{
+        height: 20vh;
+    }
+
+    .FooterUpper{
+        font-size: 2.5vw;
+        gap:20%
+    }
+
+    .FooterLower h2{
+        font-size: 3.8vw;
+    }
+
+    .FooterLower p{
+        font-size: 2.5vw;
+    }
+} */
+
+
+.FooterWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30vh; /* Instead of fixed height */
+    background-color: rgba(164, 164, 255, 0.5);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 90%; /* Adjusted width for better responsiveness */
+    max-width: 600px; /* Added maximum width to prevent footer from becoming too wide on large screens */
+}
+
+.FooterUpper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.FooterLower {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.FooterLower h2 {
+    color: blue;
+}
+
+.FooterEmail,
+.FooterPhone,
+.FooterSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Adjusted width to make it occupy full width */
+    padding: 5px; /* Added padding for better spacing */
+}
+
+.FooterEmail img,
+.FooterPhone img,
+.FooterSocial img {
+    width: 20px; /* Adjusted image width for better scaling */
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .FooterUpper {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        text-align: center; /* Center align text on smaller screens */
+    }
+
+    .FooterEmail,
+    .FooterPhone,
+    .FooterSocial {
+        width: 100%; /* Make elements occupy full width on smaller screens */
+    }
 }

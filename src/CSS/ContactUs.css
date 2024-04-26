@@ -1,4 +1,4 @@
-.ContactUsWrap{
+ .ContactUsWrap{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 5vh;
-    /* background-color: red; */
+ 
 }
 
 .ContactUsBodyLeft{
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: flex-start; */
+
     align-items: center;
     padding-left: 10%;
     
@@ -93,7 +93,7 @@
 .ContactUsBodyRight{
     width: 50%;
     height: 100%;
-    /* background-color: rgba(0, 0, 255, 0.1); */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,8 +112,7 @@
     align-items: center;
     width: 100%;
     height: 8%;
-    /* background-color: red; */
-    /* padding-right: 18%; */
+
     gap: 5%;
 }
 
@@ -133,7 +132,7 @@
 .TextAreaWrap{
     width: 100%;
     height: 15%;
-    /* background-color: blue; */
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -166,8 +165,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* padding-right: 20%; */
-    /* background-color: red; */
+
 }
 
 .SubmitButtonWrap button{
@@ -241,3 +239,65 @@
 .FormSubmitUi button:active{
     transform: scale(0.9);
 }
+
+ 
+
+
+
+ 
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 1024px) {
+    .ContactUsBodyLeft form label input,
+    .ContactUsBodyLeft form label textarea {
+      height: 4vh;
+    }
+  
+    .SubmitButtonWrap button {
+      height: 2.5rem;
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ContactUsBody {
+      flex-direction:column;
+    }
+  
+    .ContactUsBodyLeft {
+      width: 100%;
+    }
+    .ContactUsBodyRight{
+        display: none;
+        width: 50%;
+        height: 50%;
+    }
+    .ContactUsBodyLeft form {
+      width: 95%;
+    }
+
+    .SubmitButtonWrap button {
+        font-size: 1.5rem;
+      }
+
+      .ContactUsBodyLeft form label input,
+      .ContactUsBodyLeft form label textarea {
+        font-size: 2.7vw;
+      } 
+  }
+  
+  @media screen and (max-width: 480px) {
+    .ContactUsHeader {
+      font-size: 1.5rem;
+    }
+  
+    .ContactUsBodyLeft form label input,
+    .ContactUsBodyLeft form label textarea {
+      font-size: 14px;
+    }
+  
+    .SubmitButtonWrap button {
+      font-size: 0.9rem;
+    }
+  }
+  

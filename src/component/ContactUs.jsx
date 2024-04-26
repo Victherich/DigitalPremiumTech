@@ -395,7 +395,7 @@ const handleLocation =()=>{
         <div className='SubmitButtonWrap' style={{justifyContent:"center",alignItems:"center"}}>
                     <button 
                     onClick={handleLocation}
-                    style={{height:"5vh",width:"10vw",display:"flex",justifyContent:"center",gap:"5%",alignItems:"center"}}><FaBackward/> Back</button>
+                    style={{height:"5vh",width:"30vw",display:"flex",justifyContent:"center",gap:"5%",alignItems:"center"}}><FaBackward/> Back</button>
                 </div></div>
     
     </div>

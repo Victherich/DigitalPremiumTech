@@ -203,14 +203,14 @@
         width: 70%; /* Adjust width for better fit */
         height: auto; /* Let content dictate height */
         padding: 3%; /* Adjust padding for better spacing */
-        font-size: 3.3vw; /* Adjust font size for readability */
+        font-size: 4.2vw; /* Adjust font size for readability */
         gap: 2vh;
       }
   
     .SpecialOffer button {
         width: 50%; /* Adjust button width for better fit */
-        height: 5vh;
-        font-size: 2.8vw;
+        height: 6vh;
+        font-size: 3.8vw;
       }
 
       .SpecialOfferIcon{
@@ -219,7 +219,7 @@
     }
 
     .SpecialOffersHeader{
-        font-size: 2.8vw;
+        font-size: 3.3vw;
     }
   }
   
@@ -229,19 +229,19 @@
       width: 70%; /* Adjust width for better fit */
       height: auto; /* Let content dictate height */
       padding: 3%; /* Adjust padding for better spacing */
-      font-size: 2.5vw; /* Adjust font size for readability */
+      font-size: 3.3vw; /* Adjust font size for readability */
       gap: 2vh;
     }
   
     .SpecialOffer button {
-      width: 50%; /* Adjust button width for better fit */
-      height: 5vh;
-      font-size: 2.2vw;
+      width: 55%; /* Adjust button width for better fit */
+      height: 7vh;
+      font-size: 3vw;
     }
 
     .SpecialOfferIcon{
-        width: 5vw;
-        height: 5vw;
+        width: 6vw;
+        height: 6vw;
     }
 
     .SpecialOffersHeader{
@@ -259,7 +259,7 @@
   
     .SpecialOffer button {
       width: 50%;
-      font-size: 1.3vw; /* Revert button width to original */
+      font-size: 1.5vw; /* Revert button width to original */
     }
   }
   

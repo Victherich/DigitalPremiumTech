@@ -9,9 +9,9 @@ const Footer = () => {
     <div className='FooterWrap'>
       <div className='Footer'>
       <div className='FooterUpper'> 
-      <div className='FooterEmail'><img src={email}/><p>digitalpremiumtech247@gmail.com</p></div>
+      <div className='FooterEmail'><img src={email}/><p>digitalpremiumtech@gmail.com</p></div>
       <div className='FooterPhone'><img src={phone}/><p> +2347063480314</p></div>
-      <div className='FooterSocial'><img src={facebook} alt="socialIcon"/></div>
+      <div className='FooterSocial'><img src={facebook} alt="socialIcon"/>digitalpremiumtech</div>
       </div>
       <div className='FooterLower'>
         <h2>Digital Premium Tech:</h2>
