@@ -13,7 +13,7 @@
 
 .TermsAndConditions{
     width: 50%;
-    height: 60%;
+    height: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -21,9 +21,29 @@
     background-color: whitesmoke;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 8px ;
+    overflow-y: scroll;
+    padding: 20px;
 }
 
-.TermsAndConditions button{
+.TermsAndConditionsA{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.Article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    margin: 20px;
+}
+
+.TermsAndConditionsA button{
     color: white;
     font-weight: bold;
     background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
@@ -34,13 +54,37 @@
     transition: 350ms;
     font-size: 1.1vw;
     width: 20%;
-    height: 10%;
+    padding: 2vh;
+    /* margin-bottom: 20px; */
+    /* height: 20vh; */
 }
 
-.TermsAndConditions button:hover{
+.TermsAndConditionsA button:hover{
     transform: scale(1.1);
 }
 
-.TermsAndConditions button:active{
+.TermsAndConditionsA button:active{
     transform: scale(0.9);
+}
+
+@media screen and (max-width:884px) {
+    .TermsAndConditions{
+        width: 90%;
+        height: 80%;
+        font-size: 1.5rem;
+    }
+    .TermsAndConditionsA button{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width:428px) {
+    .TermsAndConditions{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .TermsAndConditionsA button{
+        font-size: 1rem;
+    }
 }

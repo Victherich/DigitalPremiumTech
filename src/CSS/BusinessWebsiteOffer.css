@@ -80,3 +80,73 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media screen and (max-width:884px) {
+    .BusinessWebsiteImgWrap{
+        width: 80%;
+        margin-top: 20px;
+    }   
+    .BusinessWebsiteformNote{
+        font-size: 2vw;
+    }
+    .BusinessWebsiteOfferBodyRight{
+        font-size: 2vw;
+    }
+    .TermsAndConditionsAgreeWrapUp{
+        width:40%;
+        font-size: 2.2vw;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .BusinessWebsiteImgWrap{
+        width: 80%;
+    }   
+    .BusinessWebsiteformNote{
+        font-size: 2.5vw;
+    }
+    .BusinessWebsiteOfferBodyRight{
+        font-size: 2.9vw;
+    }
+    .TermsAndConditionsAgreeWrapUp{
+        width:50%;
+        font-size: 2.8vw;
+    }
+    
+}
+
+
+@media screen and (max-width:428px) {
+    .BusinessWebsiteImgWrap{
+        width: 80%;
+    }   
+    .BusinessWebsiteformNote{
+        font-size: 3.5vw;
+    }
+    .BusinessWebsiteOfferBodyRight{
+        font-size: 4vw;
+    }
+    .TermsAndConditionsAgreeWrapUp{
+        width:70%;
+        font-size: 3.7vw;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .BusinessWebsiteImgWrap{
+        width: 80%;
+    }   
+    .BusinessWebsiteformNote{
+        font-size: 14px;
+    }
+    .BusinessWebsiteOfferBodyRight{
+        font-size: 15px;
+    }
+    .TermsAndConditionsAgreeWrapUp{
+        width:80%;
+        font-size: 14px;
+    }
+    
+}
