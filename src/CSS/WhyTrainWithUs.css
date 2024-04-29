@@ -58,7 +58,7 @@
 
 
  .WhyTrainWithUsWrap {
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -85,8 +85,9 @@
     justify-content: center;
     align-items: center;
     height: 10vh; /* Adjust height */
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: rgb(111, 111, 247);
+    margin-bottom: 20px;
 }
 
 .WhyTrainWithUsBody {

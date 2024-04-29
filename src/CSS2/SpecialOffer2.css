@@ -1,0 +1,217 @@
+.SpecialOfferWrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: changeColor 5s infinite alternate;
+    padding-top:70px;
+    padding-bottom: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@keyframes changeColor {
+    0% { background-color: rgba(255, 0, 0, 0.1); } /* Red */
+    25% { background-color:rgba(0, 255, 0, 0.1); } /* Green */
+    50% { background-color: rgba(0, 0, 255, 0.1); } /* Blue */
+    75% { background-color: rgba(255, 255, 0, 0.1); } /* Yellow */
+    100% { background-color: rgba(255, 0, 255, 0.1); } /* Magenta */
+}
+
+.SpecialOffers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.SpecialOffersHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.SpecialOffersHeader h1{
+    font-size: 3rem;
+    color: rgba(0, 0, 255, 0.5);
+    animation: headerAnimate 1s infinite alternate;
+    text-align: center;
+}
+
+@keyframes headerAnimate {
+    0%{transform: scaleX(1.1);}
+    25%{transform: scaleX(1.2);}
+    50%{transform: scaleX(1.3);}
+    75%{transform: scaleX(1.4);}
+    100%{transform: scaleX(1.5);}
+}
+
+
+
+
+.SpecialOffersBody{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.SpecialOffer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    border-radius: 50px 50px 0px 50px;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    background-color: rgb(236, 236, 253);
+    font-style: italic;
+}
+
+.SpecialOffer p{
+    font-size: 1.2rem;
+}
+
+.SpecialOffer button{
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 0.9rem;
+    animation: ScaleChange 1.5s infinite alternate;
+}
+
+.SpecialOffer button:hover{
+    transform: scale(1.1);
+}
+
+.SpecialOffer button:active{
+    transform: scale(0.9);
+}
+
+@keyframes ScaleChange{
+    0% {transform: scale(1);}
+    25% {transform: scale(1.09);}
+    50% {transform: scale(1.1);}
+    75% {transform: scale(1.11);}
+    100% {transform: scale(1.12);}
+}
+
+
+.SpecialOfferIcon{
+    color:rgba(137, 43, 226, 0.5);
+    width:3rem;
+    height: 3rem;
+    margin-bottom: 10px;
+    animation: changeIconColor 5s infinite alternate;
+}
+
+@keyframes changeIconColor {
+    0% { color: rgba(255, 0, 0, 0.5); } /* Red */
+    25% {color:rgba(67, 175, 148, 0.5); } /* Green */
+    50% { color: rgba(0, 0, 255, 0.5); } /* Blue */
+    75% { color: rgba(100, 50, 50, 0.5); } /* Yellow */
+    100% { color: rgba(255, 0, 255, 0.5); } /* Magenta */
+}
+
+.ViewSampleAndButtonWrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ViewSampleAndButtonWrap p{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    animation: ScaleChange 1.5s infinite alternate;
+}
+
+.ViewSampleAndButtonWrap button{
+    
+}
+
+.PortfolioWebsiteSamplesOption{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+    background-color: rgb(236, 236, 253);
+    border-radius: 50px 50px 0px 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px ;
+}
+
+.PortfolioWebsiteSamplesOption p{
+    cursor: pointer;
+    padding: 2%;
+    text-decoration: underline;
+    width: 100%;
+    color: blue;
+    transition: 350ms ease-in;
+    font-size: 1.2rem;
+}
+
+.PortfolioWebsiteSamplesOption p:hover{   
+    font-weight: bold;
+}
+
+.PortfolioWebsiteSamplesOption span{
+    cursor: pointer;
+}
+
+.PortfolioWebsiteSamplesOption span:hover{
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .SpecialOffer{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .SpecialOfferWrap{
+        padding-top: 50px;
+    }
+    .SpecialOffersHeader{
+        width: 80%;
+    }
+   .SpecialOffersHeader h1{
+    font-size: 2.3rem;
+   }
+   .SpecialOffers{
+    width: 100%;
+   }
+   .SpecialOffer{
+    width: 90%;
+}
+
+}
+
+@media screen and (max-width:320px) {
+    .SpecialOffersHeader h1{
+        font-size: 2rem;
+       }
+}   

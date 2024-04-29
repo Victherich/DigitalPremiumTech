@@ -1,0 +1,67 @@
+.HeroWrap{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../Images/Hero\ Img.jpg');
+    background-size: cover;
+    background-position: center;
+    color:rgb(209, 208, 208);
+}
+.HeroWrap::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    z-index: 0;
+}
+.Hero{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    z-index: 1;
+    gap:40px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.Hero h1{
+    font-size: 4rem;
+ 
+}
+
+.Hero h2{
+    font-size: 2rem;
+  
+}
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+    .Hero{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .Hero{
+        margin-top: 75px;
+    }
+    .Hero h1{
+        font-size: 3rem;
+    }
+    
+    .Hero h2{
+        font-size: 1rem;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import facebook from "../Images/logos_facebook.png"
-import "../CSS/Footer.css"
+// import "../CSS/Footer.css"
+import "../CSS2/Footer2.css"
 import phone from "../Images/teenyicons_phone-solid.png"
 import email from "../Images/ic_round-email.png"
 

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
-import "../CSS/Gigs.css"
+// import "../CSS/Gigs.css"
+import "../CSS2/Gigs2.css"
 import Footer from "../component/Footer"
 // import {FaHome} from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom'

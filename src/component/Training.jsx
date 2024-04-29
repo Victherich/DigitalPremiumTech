@@ -1,5 +1,6 @@
 import React from 'react'
-import '../CSS/Training.css'
+// import '../CSS/Training.css'
+import "../CSS2/Training2.css"
 import TrainingImage1 from "../Images/Training pic 1.png"
 import TrainingImage2 from "../Images/Training pic 2.png"
 import { useNavigate } from 'react-router-dom'

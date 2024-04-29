@@ -1,5 +1,6 @@
 import React, { useContext,useState } from 'react'
-import "../CSS/SpecialOffer.css"
+// import "../CSS/SpecialOffer.css"
+import "../CSS2/SpecialOffer2.css"
 import "animate.css"
 import {FaClosedCaptioning, FaHome, FaInternetExplorer, FaRegWindowClose, FaUser, FaUsers} from "react-icons/fa"
 import { useNavigate } from 'react-router-dom'
